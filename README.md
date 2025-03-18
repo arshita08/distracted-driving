@@ -4,8 +4,8 @@
 This project develops a machine learning model to detect and classify distracted driving behaviors from images of drivers. Each image, captured inside a car, shows a driver engaged in activities such as texting, talking on the phone, eating, applying makeup, reaching behind, or talking to a passenger. The goal is to predict the likelihood of the specific activity (class) in each image.
 
 ### Example Image
-![Distracted Driver Example](distracted_driver_example.jpg)
-*Image of a driver texting while operating a vehicle.*
+![Distracted Driver Example](driver.gif)
+*Animated GIF of a driver texting while operating a vehicle.*
 
 ## Problem Description
 The dataset includes 10 distinct classes to predict:
@@ -99,7 +99,7 @@ The elevated training, validation, and holdout losses are due to:
 - Ensure `resnets_utils.py` is available for utility functions.
 
 ### Setup
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/arshita08/distracted-driving.git`
 2. Install dependencies: `pip install -r requirements.txt` (create `requirements.txt` with listed libraries).
 3. Place dataset files (`driver_imgs_list.csv`, `test_file_names.csv`, and image folders) in the `imgs/` directory.
 
